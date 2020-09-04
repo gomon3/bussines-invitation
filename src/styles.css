@@ -1,1 +1,46 @@
 /* You can add global styles to this file, and also import other style files */
+
+@font-face {
+    font-family: 'Melinda';
+    src: url(assets/fonts/Melinda-script.ttf);
+}
+
+.f-melinda {
+    font-family: 'Melinda';
+}
+
+.nav-button {
+    font-family: 'ui-serif';
+}
+
+.tittle {
+    text-align: center;
+    color: #B25932;
+}
+
+.couple-names {
+    color: #ffffff;
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.boyfriend {
+    text-align: left;
+}
+
+.girlfriend {
+    text-align: right;
+}
+
+.ampersand {
+    text-align: center;
+}
+
+.main-img {
+    /* background-image: url(assets/img/46977858_332498920875989_5420676025258344448_n.jpg); */
+    position: relative;
+    display: inline-block;
+    
+}
