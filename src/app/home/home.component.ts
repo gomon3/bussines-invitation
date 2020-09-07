@@ -14,8 +14,18 @@ export class HomeComponent implements OnInit {
   hours: Number;
   minutes: Number;
   seconds: Number;
+
+  name: String = '';
+  phone: String = '';
+  message: String = '';
+
+  invitados: String = '0';
+  eventos: String = 'all';
+
+  whatsappDestino: String = '9611128663';
   
-  constructor() { }
+  constructor() {
+  }
 
   ngOnInit(): void {
     this.initPage();
@@ -54,6 +64,36 @@ export class HomeComponent implements OnInit {
 
   goToLocation(url: any){
     window.open(url, "_blank");
+  }
+
+  sendWhatsapp() {
+    let wspmessage = 'Hola mi nombre es ' + this.name + ' y quiero confirmar mi asistencia a tu boda, mi número telefónico es el ';
+    wspmessage = wspmessage + this.phone;
+
+    if(this.message != '' || this.message != ' ' || this.message != '  '){
+      wspmessage = wspmessage + '... adicional a eso ' + this.message;
+    }
+
+    if(this.invitados != '0'){
+      wspmessage = wspmessage + ', además... me acompañarán ' + this.invitados + ' invitados adicionales';
+    }
+
+    if(this.eventos === 'all'){
+      wspmessage = wspmessage + ' y te acompañaremos en todo momento del evento';
+    }
+
+    if(this.eventos === 'ceremonia'){
+      wspmessage = wspmessage + ' y te acompañaremos únicamente en la ceremonia';
+    }
+
+    if(this.eventos === 'celebracion'){
+      wspmessage = wspmessage + ' y te acompañaremos únicamente en la celebración';
+    }
+
+
+    let wspConvert = encodeURI(wspmessage);
+    window.open('https://api.whatsapp.com/send?phone=52' + this.whatsappDestino + '&text=' + wspConvert, "_blank");
+    
   }
 
 }

@@ -120,35 +120,35 @@
             <div class="row">
                 <div class="col-lg-3 col-md-6 col-sm-6 p-0">
                     <div class="gallery__pic">
-                        <img src="assets/img/47063550_1940099782706483_7129324572360310784_n.jpg" alt="">
+                        <img src="assets/img/IMG_9779.jpg" alt="">
                     </div>
                     <div class="gallery__pic">
-                        <img src="assets/img/IMG_5255.JPG" alt="">
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 col-sm-6 p-0">
-                    <div class="gallery__pic">
-                        <img src="assets/img/IMG_5174.JPG" alt="">
-                    </div>
-                    <div class="gallery__pic">
-                        <img src="assets/img/IMG_5423.JPG" alt="">
+                        <img src="assets/img/IMG_9748.jpg" alt="">
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 col-sm-6 p-0">
                     <div class="gallery__pic">
-                        <img src="assets/img/56541951_431948887558621_3835613418342055936_n.jpg" alt="">
+                        <img src="assets/img/IMG_9705.jpg" alt="">
                     </div>
                     <div class="gallery__pic">
-                        <img src="assets/img/47091397_256476481715002_4732276549636587520_n.jpg" alt="">
+                        <img src="assets/img/IMG_9680.jpg" alt="">
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-6 p-0">
+                    <div class="gallery__pic">
+                        <img src="assets/img/IMG_9577.jpg" alt="">
+                    </div>
+                    <div class="gallery__pic">
+                        <img src="assets/img/IMG_9570.jpg" alt="">
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 col-sm-6 p-0">
                     <div class="gallery__pic">
                         
-                        <img src="assets/img/47320459_598604177226634_3071215909461819392_n.jpg" alt="">
+                        <img src="assets/img/IMG_9537.jpg" alt="">
                     </div>
                     <div class="gallery__pic">
-                        <img src="assets/img/IMG_5193.JPG" alt="">
+                        <img src="assets/img/IMG_9492.jpg" alt="">
                     </div>
                 </div>
             </div>
@@ -258,23 +258,23 @@
                         <img src="assets/img/icon/icon_2.png" alt="">
                         <p>Registra máximo 5 días antes del evento</p>
                     </div>
-                    <form action="#">
-                        <input type="text" placeholder="Tu nombre">
-                        <input type="text" placeholder="Tu número">
-                        <input type="text" placeholder="Mensaje adicional">
+                    <form>
+                        <input [(ngModel)]="name" type="text" placeholder="Tu nombre" name="name">
+                        <input [(ngModel)]="phone" type="text" placeholder="Tu número" name="phone">
+                        <input [(ngModel)]="message" type="text" placeholder="Mensaje adicional" name="message">
                         <p>¿Llevarás invitados adicionales?</p>
-                        <select>
+                        <select [(ngModel)]="invitados" name="guests">
                             <option value="0">0 Invitados</option>
                             <option value="1">1 Invitados</option>
                             <option value="2">2 Invitados</option>
                             <option value="3">3+ Invitados</option>
                         </select>
-                        <select>
+                        <select [(ngModel)]="eventos" name="events">
                             <option value="all">Todos los eventos</option>
                             <option value="ceremonia">Ceremonia</option>
                             <option value="celebracion">Celebración</option>
                         </select>
-                        <button type="submit" class="site-btn">Confirmar asistencia</button>
+                        <button type="submit" class="site-btn" (click)="sendWhatsapp()">Confirmar asistencia</button>
                     </form>
                 </div>
             </div>
