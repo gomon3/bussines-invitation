@@ -24,13 +24,21 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css",
-              "node_modules/bootstrap/dist/css/bootstrap.min.css"
+              "src/assets/css/bootstrap.min.css",
+              "src/assets/css/elegant-icons.css",
+              "src/assets/css/nice-select.css",
+              "src/assets/css/owl.carousel.min.css",
+              "src/assets/css/slicknav.min.css",
+              "src/styles.css"
             ],
             "scripts": [
-              "node_modules/jquery/jquery.min.js",
-              "node_modules/popper.js/dist/popper.min.js",
-              "node_modules/bootstrap/dist/js/bootstrap.min.js"
+              "src/assets/js/jquery-3.3.1.min.js",
+              "src/assets/js/bootstrap.min.js",
+              "src/assets/js/jquery.nice-select.min.js",
+              "src/assets/js/mixitup.min.js",
+              "src/assets/js/jquery.countdown.min.js",
+              "src/assets/js/jquery.slicknav.js",
+              "src/assets/js/owl.carousel.min.js"
             ]
           },
           "configurations": {
@@ -93,13 +101,21 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css",
-              "node_modules/bootstrap/dist/css/bootstrap.min.css"
+              "src/assets/css/bootstrap.min.css",
+              "src/assets/css/elegant-icons.css",
+              "src/assets/css/nice-select.css",
+              "src/assets/css/owl.carousel.min.css",
+              "src/assets/css/slicknav.min.css",
+              "src/styles.css"
             ],
             "scripts": [
-              "node_modules/jquery/jquery.min.js",
-              "node_modules/popper.js/dist/popper.min.js",
-              "node_modules/bootstrap/dist/js/bootstrap.min.js"
+              "src/assets/js/jquery-3.3.1.min.js",
+              "src/assets/js/bootstrap.min.js",
+              "src/assets/js/jquery.nice-select.min.js",
+              "src/assets/js/mixitup.min.js",
+              "src/assets/js/jquery.countdown.min.js",
+              "src/assets/js/jquery.slicknav.js",
+              "src/assets/js/owl.carousel.min.js"
             ]
           }
         },

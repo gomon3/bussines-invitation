@@ -1,31 +1,315 @@
-<div class="container-fluid">
+<!-- Page Preloder -->
+<div id="preloder">
+    <div class="loader"></div>
+</div> 
 
-    <ul class="nav justify-content-center nav-button">
-        <li class="nav-item">
-            <a class="nav-link" href="#">Donde</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" href="#">Fecha</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" href="#">Fotos</a>
-        </li>
-    </ul>
-
-    <h1 class="f-melinda tittle">Nos casamos</h1>
-
-    <div class="main-img">
-        <img src="assets/img/46977858_332498920875989_5420676025258344448_n.jpg" class="img-fluid" alt="Responsive image">
-        
-        <div class="f-melinda couple-names">
-            <h2 class="boyfriend">Javy</h2>
-            <h2 class="ampersand">&</h2>
-            <h2 class="girlfriend">Vasty</h2>
+<!-- Header Section Begin -->
+<header class="header">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <div class="header__logo">
+                    <a class="f-melinda" href="#">Nos casamos</a>
+                </div>
+                <nav class="header__menu mobile-menu">
+                    <ul>
+                        <li class="active"><a href="#">Inicio</a></li>
+                        <li><a href="#album_fotos">Album de fotos</a></li>
+                        <li><a href="#donde_cuando">Donde y cuando</a></li>
+                        <li><a href="#asistencia">Confirmar asistencia</a></li>
+                    </ul>
+                </nav>
+                <div class="header__search">
+                    <span class="icon_search search-switch"></span>
+                </div>
+                <div id="mobile-menu-wrap"></div>
+            </div>
         </div>
-
-
     </div>
+</header>
+<!-- Header Section End -->
 
-    
+<!-- Hero Section Begin -->
+<section class="hero spad set-bg" style="background-image: url(assets/img/horizontal-javy&vasty-01.jpg);">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="hero__text">
+                    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+                    <h3>Diciembre 11<sup></sup>, 2020</h3>
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <div class="countdown__content" id="countdown-time">
+                                <div class="countdown__item">
+                                    <span>{{ days }}</span>
+                                    <p>Días</p>
+                                </div>
+                                <div class="countdown__item">
+                                    <span>{{ hours }}</span>
+                                    <p>Horas</p>
+                                </div>
+                                <div class="countdown__item">
+                                    <span>{{ minutes }}</span>
+                                    <p>Minutos</p>
+                                </div>
+                                <div class="countdown__item">
+                                    <span>{{ seconds }}</span>
+                                    <p>Segundos</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Hero Section End -->
 
+<!-- Story Section Begin -->
+<section class="story spad">
+    <div class="container">
+        <div class="row d-flex justify-content-center">
+            <div class="col-lg-7">
+                <div class="section-title">
+                    <span>Reserva la fecha</span>
+                    <h2>La Historia Continua...</h2>
+                    <img src="assets/img/icon/icon_2.png" alt="">
+                    <p>Después de más de 10 años juntos y de vivir la experiencia más bonita de noviazgo, hemos decidio ser aún más felices... por lo que uniremos nuestras vidas delante de Dios y nos encantaría compartirlo con ustedes</p>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-3">
+                <div class="story__item">
+                    <h3>Javy</h3>
+                    <img src="assets/img/icon/icon_3.png" alt="">
+                    <p>Cuan hermoso eres tu amado mío, y dulce; Nuestro lecho es de flores [Cantares 1:16]</p>
+                </div>
+            </div>
+            <div class="col-lg-6 text-center">
+                <div class="story__large__pic">
+                    <img src="assets/img/segunda-foto.jpg" alt="" style="border-radius: 100px;">
+                </div>
+            </div>
+            <div class="col-lg-3">
+                <div class="story__item">
+                    <h3>Vasty</h3>
+                    <img src="assets/img/icon/icon_3.png" alt="">
+                    <p>Cuan hermosa eres tu amada mía, eres bella; Tus ojos son como palomas [Cantares 1:15]</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Story Section End -->
+
+<!-- Gallery Section Begin -->
+<section id="album_fotos" class="gallery">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="section-title set-bg" style="background-image: url(assets/img/gallery/gallery-title.jpg);">
+                    <span>Nuestra Galería</span>
+                    <h2>Compartimos Algunos Momentos...</h2>
+                    <img src="assets/img/icon/icon_2.png" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="gallery__content">
+            <div class="row">
+                <div class="col-lg-3 col-md-6 col-sm-6 p-0">
+                    <div class="gallery__pic">
+                        <img src="assets/img/47063550_1940099782706483_7129324572360310784_n.jpg" alt="">
+                    </div>
+                    <div class="gallery__pic">
+                        <img src="assets/img/IMG_5255.JPG" alt="">
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-6 p-0">
+                    <div class="gallery__pic">
+                        <img src="assets/img/IMG_5174.JPG" alt="">
+                    </div>
+                    <div class="gallery__pic">
+                        <img src="assets/img/IMG_5423.JPG" alt="">
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-6 p-0">
+                    <div class="gallery__pic">
+                        <img src="assets/img/56541951_431948887558621_3835613418342055936_n.jpg" alt="">
+                    </div>
+                    <div class="gallery__pic">
+                        <img src="assets/img/47091397_256476481715002_4732276549636587520_n.jpg" alt="">
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-6 p-0">
+                    <div class="gallery__pic">
+                        
+                        <img src="assets/img/47320459_598604177226634_3071215909461819392_n.jpg" alt="">
+                    </div>
+                    <div class="gallery__pic">
+                        <img src="assets/img/IMG_5193.JPG" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Gallery Section End -->
+
+<!-- When and Where Section Begin -->
+<section id="donde_cuando" class="wedding-time spad">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="section-title">
+                    <h2>Donde & Cuando</h2>
+                    <img src="assets/img/icon/icon_2.png" alt="">
+                    <p>La cita es el 11 de Diciembre del 2020</p>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-6 col-md-6 col-sm-6">
+                <div class="wedding__time__item location-button" (click)="goToLocation('https://www.google.com/maps/search/?api=1&query=Quinta+Bek+Berriozabal+Chiapas')">
+                    <img src="assets/img/when-where/ww-1.png" alt="">
+                    <h4>Ceremonia</h4>
+                    <ul>
+                        <li><span class="icon_clock_alt"></span> 14:00 PM</li>
+                        <li><span class="icon_map_alt"></span> Quinta Bek - Carretera Tuxtla-Berriozabal Km 17.5, 29130 Berriozabal, Chiapas</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-6">
+                <div class="wedding__time__item location-button" (click)="goToLocation('https://www.google.com/maps/search/?api=1&query=Quinta+Bek+Berriozabal+Chiapas')">
+                    <img src="assets/img/when-where/ww-2.png" alt="">
+                    <h4>Celebración</h4>
+                    <ul>
+                        <li><span class="icon_clock_alt"></span>  16:00 PM</li>
+                        <li><span class="icon_map_alt"></span> Quinta Bek - Carretera Tuxtla-Berriozabal Km 17.5, 29130 Berriozabal, Chiapas</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- When and Where Section End -->
+
+<!-- Dress Code Section Begin -->
+<section id="donde_cuando" class="wedding-time spad">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="section-title">
+                    <h2>Dress Code</h2>
+                    <img src="assets/img/icon/icon_2.png" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-6 col-md-6 col-sm-6">
+                <div class="wedding__time__item">
+                    <img src="assets/img/event/zapatilla.png" alt="">
+                    <h4>Ellas</h4>
+                    <ul>
+                        <li><span class="icon_clock_alt"></span> Hermosas y Cómodas</li>
+                        <li><span class="icon_map_alt"></span> Con calzado apropiado para jardín</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-6">
+                <div class="wedding__time__item">
+                    <img src="assets/img/event/lider.png" alt="">
+                    <h4>Ellos</h4>
+                    <ul>
+                        <li><span class="icon_clock_alt"></span>  Guapos y Cómodos</li>
+                        <li><span class="icon_map_alt"></span> Con calzado apropiado para jardín</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="section-title">
+                    <h4>No olviden llevar su mejor sonrisa y toda la actitud</h4>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Dress Code Section End -->
+
+<!-- Rsvp Section Begin -->
+<section id="asistencia" class="rsvp set-bg" style="background-image: url(assets/img/IMG_9657.jpg);">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-7 col-md-7">
+                <div class="rsvp__text">
+                    <div class="section-title">
+                        <p>No hay nada que nos interese más que nos acompañes, es por eso que agradeceríamos que nos confirmes tu asistencia al evento llenando el formulario a continuación...</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-5 col-md-5">
+                <div class="rsvp__form">
+                    <div class="section-title">
+                        <span>! Confirma tu asistencia aquí !</span>
+                        <h2>Javy & Vasty</h2>
+                        <img src="assets/img/icon/icon_2.png" alt="">
+                        <p>Registra máximo 5 días antes del evento</p>
+                    </div>
+                    <form action="#">
+                        <input type="text" placeholder="Tu nombre">
+                        <input type="text" placeholder="Tu número">
+                        <input type="text" placeholder="Mensaje adicional">
+                        <p>¿Llevarás invitados adicionales?</p>
+                        <select>
+                            <option value="0">0 Invitados</option>
+                            <option value="1">1 Invitados</option>
+                            <option value="2">2 Invitados</option>
+                            <option value="3">3+ Invitados</option>
+                        </select>
+                        <select>
+                            <option value="all">Todos los eventos</option>
+                            <option value="ceremonia">Ceremonia</option>
+                            <option value="celebracion">Celebración</option>
+                        </select>
+                        <button type="submit" class="site-btn">Confirmar asistencia</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Rsvp Section End -->
+
+
+<!-- Rsvp Section Begin -->
+<section class="rsvp_1 set-bg">
+    <br><br><br>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="section-title">
+                    <h2>No faltes - Te esperamos</h2>
+                    <img src="assets/img/icon/icon_2.png" alt="">
+                </div>
+            </div>
+        </div>        
+    </div>
+    <div class="">
+        <img src="assets/img/final-anexar-texto.jpg" class="img-fluid">
+    </div>
+</section>
+
+
+<!-- Search Begin -->
+<div class="search-model">
+    <div class="h-100 d-flex align-items-center justify-content-center">
+        <div class="search-close-switch">+</div>
+        <form class="search-model-form">
+            <input type="text" id="search-input" placeholder="Search here.....">
+        </form>
+    </div>
 </div>
+<!-- Search End -->

@@ -1,0 +1,43 @@
+@font-face {
+    font-family: 'Melinda';
+    src: url(../../assets/fonts/Melinda-script.ttf);
+}
+
+.location-button {
+    background: #ffffff;
+}
+
+.location-button:active {
+    background: #ffffff;
+    transform: scale(0.98);
+}
+
+.f-melinda {
+    font-family: 'Melinda';
+    color: #B25932;
+    font-size: xxx-large;
+}
+
+ .countdown__item p {
+    color: #ffffff;
+}
+
+.countdown__item span {
+    color: #ffffff;
+}
+
+.countdown__item:after {
+	color: #ffffff;
+}
+
+.rsvp__form {
+    margin-top: 10px;
+}
+
+.rsvp {
+    height: 1000px;
+}
+
+.rsvp_1 {
+    height: 400px;
+}
