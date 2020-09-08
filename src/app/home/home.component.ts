@@ -22,7 +22,7 @@ export class HomeComponent implements OnInit {
   //invitados: String = '0';
   eventos: String = 'all';
 
-  whatsappDestino: String = '9611431139';
+  whatsappDestino: String = '9616684010';
   
   constructor() {
   }
