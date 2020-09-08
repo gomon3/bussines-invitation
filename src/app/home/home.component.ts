@@ -19,7 +19,7 @@ export class HomeComponent implements OnInit {
   phone: String = '';
   message: String = '';
 
-  invitados: String = '0';
+  //invitados: String = '0';
   eventos: String = 'all';
 
   whatsappDestino: String = '9611431139';
@@ -74,9 +74,9 @@ export class HomeComponent implements OnInit {
       wspmessage = wspmessage + '... adicional a eso ' + this.message;
     }
 
-    if(this.invitados != '0'){
+    /*if(this.invitados != '0'){
       wspmessage = wspmessage + ', además... me acompañarán ' + this.invitados + ' invitados adicionales';
-    }
+    }*/
 
     if(this.eventos === 'all'){
       wspmessage = wspmessage + ' y te acompañaremos en todo momento del evento';
