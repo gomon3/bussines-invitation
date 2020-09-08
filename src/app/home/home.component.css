@@ -3,6 +3,21 @@
     src: url(../../assets/fonts/Melinda-script.ttf);
 }
 
+@font-face {
+    font-family: 'Lattesha';
+    src: url(../../assets/fonts/Lattesha-Script.ttf);
+}
+
+.f-latesha {
+    font-family: 'Lattesha';
+}
+
+.f-melinda {
+    font-family: 'Melinda';
+    color: #B25932;
+    font-size: xxx-large;
+}
+
 .location-button {
     background: #ffffff;
 }
@@ -10,12 +25,6 @@
 .location-button:active {
     background: #ffffff;
     transform: scale(0.98);
-}
-
-.f-melinda {
-    font-family: 'Melinda';
-    color: #B25932;
-    font-size: xxx-large;
 }
 
  .countdown__item p {
