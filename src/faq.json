@@ -8,7 +8,7 @@
         {
           "type": "p",
           "content": [
-            "Solo debes seleccionar la cuenta o tarjeta que quieres revisar y entrar a Más (...). Elige 'Estado de cuenta' para ver y compartir tus estados de cuenta de hasta 10 años anteriores."
+            "Solo debes seleccionar la cuenta o tarjeta que quieres revisar y entrar a Más (...). Elige Estado de cuenta para ver y compartir tus estados de cuenta de hasta 10 años anteriores."
           ]
         }
       ],
@@ -31,7 +31,7 @@
         {
           "type": "p",
           "content": [
-            "Elige la cuenta que quieres revisar y selecciona 'Detalle de cuenta'. Allí podrás ver y copiar tu número de cuenta y CLABE."
+            "Elige la cuenta que quieres revisar y selecciona Detalle de cuenta. Allí podrás ver y copiar tu número de cuenta y CLABE."
           ]
         }
       ],
@@ -54,13 +54,13 @@
         {
           "type": "p",
           "content": [
-            "Entra a 'Transferir' en la pantalla principal de la aplicación. Ten a la mano los datos de la cuenta destino y recuerda tener saldo suficiente para hacer la transferencia. Si es a cuenta BBVA de un tercero o a una cuenta de otro banco, deberás registrarla."
+            "Entra a Transferir en la pantalla principal de la aplicación. Ten a la mano los datos de la cuenta destino y recuerda tener saldo suficiente para hacer la transferencia. Si es a cuenta BBVA de un tercero o a una cuenta de otro banco, deberás registrarla."
           ]
         },
         {
           "type": "p",
           "content": [
-            "También puedes entrar a 'Transferir' desde la pantalla informativa de tu cuenta."
+            "También puedes entrar a Transferir desde la pantalla informativa de tu cuenta."
           ]
         }
       ],
@@ -83,13 +83,13 @@
         {
           "type": "p",
           "content": [
-            "Entra a 'Transferir' en la pantalla principal de la aplicación. Recuerda tener contigo los datos de la tarjeta de otro banco que quieres pagar, la cual deberás registrar.. Antes de completar la transferencia, verifica tu información."
+            "Entra a Transferir en la pantalla principal de la aplicación. Recuerda tener contigo los datos de la tarjeta de otro banco que quieres pagar, la cual deberás registrar.. Antes de completar la transferencia, verifica tu información."
           ]
         },
         {
           "type": "p",
           "content": [
-            "También puedes pagar la tarjeta al entrar a 'Transferir' en la pantalla informativa de tu cuenta."
+            "También puedes pagar la tarjeta al entrar a Transferir en la pantalla informativa de tu cuenta."
           ]
         }
       ],
@@ -112,7 +112,7 @@
         {
           "type": "p",
           "content": [
-            "Selecciona la tarjeta BBVA a la que quieres abonar y entra a la opción 'Pagar tarjeta', allí podrás elegir entre pago mínimo, pago para no generar intereses, deuda actual o introducir otra cantidad. Recuerda verificar tus datos antes de confirmar la operación."
+            "Selecciona la tarjeta BBVA a la que quieres abonar y entra a la opción Pagar tarjeta, allí podrás elegir entre pago mínimo, pago para no generar intereses, deuda actual o introducir otra cantidad. Recuerda verificar tus datos antes de confirmar la operación."
           ]
         }
       ],
@@ -135,7 +135,7 @@
         {
           "type": "p",
           "content": [
-            "Cuando revises tus movimientos, entra al cargo que no reconozcas y elige la opción 'Desconozco este movimiento'."
+            "Cuando revises tus movimientos, entra al cargo que no reconozcas y elige la opción Desconozco este movimiento."
           ]
         }
       ],
@@ -181,13 +181,13 @@
         {
           "type": "p",
           "content": [
-            "Toca la flecha en el centro de la pantalla principal para desplegar todo el menú. Entra a 'Pagar servicio' y selecciona uno de los que tienes guardados o registra uno nuevo. Completa los datos, verifica y confirma la operación."
+            "Toca la flecha en el centro de la pantalla principal para desplegar todo el menú. Entra a Pagar servicio y selecciona uno de los que tienes guardados o registra uno nuevo. Completa los datos, verifica y confirma la operación."
           ]
         },
         {
           "type": "p",
           "content": [
-            "Si lo prefieres, puedes entrar a 'Pagar servicios' al seleccionar Más (...) en la pantalla informativa de tu cuenta."
+            "Si lo prefieres, puedes entrar a Pagar servicios al seleccionar Más (...) en la pantalla informativa de tu cuenta."
           ]
         }
       ],
@@ -210,13 +210,13 @@
         {
           "type": "p",
           "content": [
-            "Entra a 'Retiro sin tarjeta' en la pantalla principal de la aplicación. Solo debes ingresar el monto y concepto. Al finalizar, podrás compartir la clave y el código de retiro."
+            "Entra a Retiro sin tarjeta en la pantalla principal de la aplicación. Solo debes ingresar el monto y concepto. Al finalizar, podrás compartir la clave y el código de retiro."
           ]
         },
         {
           "type": "p",
           "content": [
-            "Para hacer el retiro en el cajero, selecciona la opción 'Retiro sin tarjeta' e ingresa la clave y el código de seguridad."
+            "Para hacer el retiro en el cajero, selecciona la opción Retiro sin tarjeta e ingresa la clave y el código de seguridad."
           ]
         }
       ],
@@ -262,7 +262,7 @@
         {
           "type": "p",
           "content": [
-            "En el menú de la esquina superior derecha de la aplicación, selecciona 'Seguridad y privacidad' y entra a 'Accesos y firmas'. Allí podrás modificar tu contraseña. Recuerda que los cambios aplicarán para todos tus servicios móviles."
+            "En el menú de la esquina superior derecha de la aplicación, selecciona Seguridad y privacidad y entra a Accesos y firmas. Allí podrás modificar tu contraseña. Recuerda que los cambios aplicarán para todos tus servicios móviles."
           ]
         }
       ],
