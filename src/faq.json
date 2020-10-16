@@ -1,333 +1,333 @@
 {
-    "faqs": [
-      {
-        "id": 1,
-        "title": "¿Cómo puedo consultar mis estados de cuenta?",
-        "alternativeTitle": "Consulta hasta 10 años de tus estados de cuenta",
-        "answer": [
-          {
-            "type": "p",
-            "content": [
-              "Solo debes seleccionar la cuenta o tarjeta que quieres revisar y entrar a test. Elige 'Estado de cuenta' para ver y compartir tus estados de cuenta de hasta 10 años anteriores."
-            ]
-          }
-        ],
-        "entity": "Estado de cuenta",
-        "family": {
-          "asset": "coronita:document",
-          "name": "Estados de Cuenta"
-        },
-        "link": {
-          "text": "Ver estado de cuenta",
-          "url": "help-section-dashboard"
-        },
-        "native": true
+  "faqs": [
+    {
+      "id": 1,
+      "title": "¿Cómo puedo consultar mis estados de cuenta?",
+      "alternativeTitle": "Consulta hasta 10 años de tus estados de cuenta",
+      "answer": [
+        {
+          "type": "p",
+          "content": [
+            "Solo debes seleccionar la cuenta o tarjeta que quieres revisar y entrar a Más (...). Elige 'Estado de cuenta' para ver y compartir tus estados de cuenta de hasta 10 años anteriores."
+          ]
+        }
+      ],
+      "entity": "Estado de cuenta",
+      "family": {
+        "asset": "coronita:document",
+        "name": "Estados de Cuenta"
       },
-      {
-        "id": 2,
-        "title": "¿Cómo consulto mi CLABE y número de cuenta?",
-        "alternativeTitle": "Comparte tu número de cuenta de forma sencilla",
-        "answer": [
-          {
-            "type": "p",
-            "content": [
-              "Elige la cuenta que quieres revisar y selecciona 'Detalle de cuenta'. Allí podrás ver y copiar tu número de cuenta y CLABE."
-            ]
-          }
-        ],
-        "entity": "Detalle de cuenta",
-        "family": {
-          "asset": "coronita:account",
-          "name": "Detalle de cuenta"
-        },
-        "link": {
-          "text": "Ver detalle de cuenta",
-          "url": "help-section-dashboard"
-        },
-        "native": true
+      "link": {
+        "text": "Ver estado de cuenta",
+        "url": "help-section-dashboard"
       },
-      {
-        "id": 3,
-        "title": "¿Cómo hago una transferencia?",
-        "alternativeTitle": "Haz transferencias seguras y rápidas a cuentas BBVA y de otros bancos",
-        "answer": [
-          {
-            "type": "p",
-            "content": [
-              "Entra a 'Transferir' en la pantalla principal de la aplicación. Ten a la mano los datos de la cuenta destino y recuerda tener saldo suficiente para hacer la transferencia. Si es a cuenta BBVA de un tercero o a una cuenta de otro banco, deberás registrarla."
-            ]
-          },
-          {
-            "type": "p",
-            "content": [
-              "También puedes entrar a 'Transferir' desde la pantalla informativa de tu cuenta."
-            ]
-          }
-        ],
-        "entity": "Transferencias",
-        "family": {
-          "asset": "coronita:transfer",
-          "name": "Transferencias"
-        },
-        "link": {
-          "text": "Hacer transferencia",
-          "url": "help-section-how-transfer"
-        },
-        "native": true
+      "native": true
+    },
+    {
+      "id": 2,
+      "title": "¿Cómo consulto mi CLABE y número de cuenta?",
+      "alternativeTitle": "Comparte tu número de cuenta de forma sencilla",
+      "answer": [
+        {
+          "type": "p",
+          "content": [
+            "Elige la cuenta que quieres revisar y selecciona 'Detalle de cuenta'. Allí podrás ver y copiar tu número de cuenta y CLABE."
+          ]
+        }
+      ],
+      "entity": "Detalle de cuenta",
+      "family": {
+        "asset": "coronita:account",
+        "name": "Detalle de cuenta"
       },
-      {
-        "id": 4,
-        "title": "¿Cómo puedo pagar una tarjeta de crédito de otro banco?",
-        "alternativeTitle": "Paga tarjetas de crédito de otros bancos en tu aplicación BBVA",
-        "answer": [
-          {
-            "type": "p",
-            "content": [
-              "Entra a 'Transferir' en la pantalla principal de la aplicación. Recuerda tener contigo los datos de la tarjeta de otro banco que quieres pagar, la cual deberás registrar.. Antes de completar la transferencia, verifica tu información."
-            ]
-          },
-          {
-            "type": "p",
-            "content": [
-              "También puedes pagar la tarjeta al entrar a 'Transferir' en la pantalla informativa de tu cuenta."
-            ]
-          }
-        ],
-        "entity": "Transferencias",
-        "family": {
-          "asset": "coronita:transfer",
-          "name": "Transferencias"
-        },
-        "link": {
-          "text": "Hacer transferencia",
-          "url": "help-section-how-transfer"
-        },
-        "native": true
+      "link": {
+        "text": "Ver detalle de cuenta",
+        "url": "help-section-dashboard"
       },
-      {
-        "id": 5,
-        "title": "¿Cómo pago mi tarjeta de crédito BBVA?",
-        "alternativeTitle": "Paga de forma rápida tu tarjeta de crédito BBVA",
-        "answer": [
-          {
-            "type": "p",
-            "content": [
-              "Selecciona la tarjeta BBVA a la que quieres abonar y entra a la opción 'Pagar tarjeta', allí podrás elegir entre pago mínimo, pago para no generar intereses, deuda actual o introducir otra cantidad. Recuerda verificar tus datos antes de confirmar la operación."
-            ]
-          }
-        ],
-        "entity": "Pago de tarjeta BBVA",
-        "family": {
-          "asset": "coronita:creditcard",
-          "name": "Pago de tarjeta BBVA"
+      "native": true
+    },
+    {
+      "id": 3,
+      "title": "¿Cómo hago una transferencia?",
+      "alternativeTitle": "Haz transferencias seguras y rápidas a cuentas BBVA y de otros bancos",
+      "answer": [
+        {
+          "type": "p",
+          "content": [
+            "Entra a 'Transferir' en la pantalla principal de la aplicación. Ten a la mano los datos de la cuenta destino y recuerda tener saldo suficiente para hacer la transferencia. Si es a cuenta BBVA de un tercero o a una cuenta de otro banco, deberás registrarla."
+          ]
         },
-        "link": {
-          "text": "Pagar tarjeta BBVA",
-          "url": "help-section-dashboard"
-        },
-        "native": true
+        {
+          "type": "p",
+          "content": [
+            "También puedes entrar a 'Transferir' desde la pantalla informativa de tu cuenta."
+          ]
+        }
+      ],
+      "entity": "Transferencias",
+      "family": {
+        "asset": "coronita:transfer",
+        "name": "Transferencias"
       },
-      {
-        "id": 6,
-        "title": "Quiero reportar un cargo no reconocido. ¿Cómo lo hago?",
-        "alternativeTitle": "Solicita la aclaración de un cargo no reconocido",
-        "answer": [
-          {
-            "type": "p",
-            "content": [
-              "Cuando revises tus movimientos, entra al cargo que no reconozcas y elige la opción 'Desconozco este movimiento'."
-            ]
-          }
-        ],
-        "entity": "Aclaraciones",
-        "family": {
-          "asset": "coronita:executive",
-          "name": "Aclaraciones"
-        },
-        "link": {
-          "text": "Ver movimientos",
-          "url": "help-section-dashboard"
-        },
-        "native": true
+      "link": {
+        "text": "Hacer transferencia",
+        "url": "help-section-how-transfer"
       },
-      {
-        "id": 7,
-        "title": "¿De qué manera consulto el saldo de mi cuentas y tarjetas de crédito?",
-        "alternativeTitle": "Consulta el saldo disponible en tu cuenta",
-        "answer": [
-          {
-            "type": "p",
-            "content": [
-              "Puedes ver el saldo de tus cuentas en la pantalla principal de la aplicación. O bien, al seleccionar alguna de tus cuentas aparecerá en la pantalla tu saldo disponible."
-            ]
-          }
-        ],
-        "entity": "Consulta de saldo",
-        "family": {
-          "asset": "coronita:copycard",
-          "name": "Consulta de saldo"
+      "native": true
+    },
+    {
+      "id": 4,
+      "title": "¿Cómo puedo pagar una tarjeta de crédito de otro banco?",
+      "alternativeTitle": "Paga tarjetas de crédito de otros bancos en tu aplicación BBVA",
+      "answer": [
+        {
+          "type": "p",
+          "content": [
+            "Entra a 'Transferir' en la pantalla principal de la aplicación. Recuerda tener contigo los datos de la tarjeta de otro banco que quieres pagar, la cual deberás registrar.. Antes de completar la transferencia, verifica tu información."
+          ]
         },
-        "link": {
-          "text": "Consultar saldo",
-          "url": "help-section-dashboard"
-        },
-        "native": true
+        {
+          "type": "p",
+          "content": [
+            "También puedes pagar la tarjeta al entrar a 'Transferir' en la pantalla informativa de tu cuenta."
+          ]
+        }
+      ],
+      "entity": "Transferencias",
+      "family": {
+        "asset": "coronita:transfer",
+        "name": "Transferencias"
       },
-      {
-        "id": 8,
-        "title": "¿De qué manera puedo pagar servicios?",
-        "alternativeTitle": "Paga los servicios que más usas desde la aplicación BBVA",
-        "answer": [
-          {
-            "type": "p",
-            "content": [
-              "Toca la flecha en el centro de la pantalla principal para desplegar todo el menú. Entra a 'Pagar servicio' y selecciona uno de los que tienes guardados o registra uno nuevo. Completa los datos, verifica y confirma la operación."
-            ]
-          },
-          {
-            "type": "p",
-            "content": [
-              "Si lo prefieres, puedes entrar a 'Pagar servicios' al seleccionar 'Más' (...) en la pantalla informativa de tu cuenta."
-            ]
-          }
-        ],
-        "entity": "Pago de servicios",
-        "family": {
-          "asset": "coronita:payments",
-          "name": "Pago de servicios"
-        },
-        "link": {
-          "text": "Pagar servicios",
-          "url": "help-section-services-pay"
-        },
-        "native": true
+      "link": {
+        "text": "Hacer transferencia",
+        "url": "help-section-how-transfer"
       },
-      {
-        "id": 9,
-        "title": "¿Cómo hago un retiro sin tarjeta?",
-        "alternativeTitle": "Haz retiros de efectivo en cajeros automáticos sin usar tus tarjetas",
-        "answer": [
-          {
-            "type": "p",
-            "content": [
-              "Entra a 'Retiro sin tarjeta' en la pantalla principal de la aplicación. Solo debes ingresar el monto y concepto. Al finalizar, podrás compartir la clave y el código de retiro."
-            ]
-          },
-          {
-            "type": "p",
-            "content": [
-              "Para hacer el retiro en el cajero, selecciona la opción 'Retiro sin tarjeta' e ingresa la clave y el código de seguridad."
-            ]
-          }
-        ],
-        "entity": "Retiro sin tarjeta",
-        "family": {
-          "asset": "coronita:atm",
-          "name": "Retiro sin tarjeta"
-        },
-        "link": {
-          "text": "Ir a Retiro sin tarjeta",
-          "url": "help-section-cardless-withdrawal"
-        },
-        "native": true
+      "native": true
+    },
+    {
+      "id": 5,
+      "title": "¿Cómo pago mi tarjeta de crédito BBVA?",
+      "alternativeTitle": "Paga de forma rápida tu tarjeta de crédito BBVA",
+      "answer": [
+        {
+          "type": "p",
+          "content": [
+            "Selecciona la tarjeta BBVA a la que quieres abonar y entra a la opción 'Pagar tarjeta', allí podrás elegir entre pago mínimo, pago para no generar intereses, deuda actual o introducir otra cantidad. Recuerda verificar tus datos antes de confirmar la operación."
+          ]
+        }
+      ],
+      "entity": "Pago de tarjeta BBVA",
+      "family": {
+        "asset": "coronita:creditcard",
+        "name": "Pago de tarjeta BBVA"
       },
-      {
-        "id": 10,
-        "title": "¿Cómo hago pagos y cobros con códigos QR o CoDi®?",
-        "alternativeTitle": "Comienza a realizar operaciones con QR",
-        "answer": [
-          {
-            "type": "p",
-            "content": [
-              "Para pagar, escanea el código con tu celular o elige una imagen de código QR dentro de tu galería. Para recibir cobros, elige el monto, ingresa el motivo de la solicitud y comparte la imagen con quien tú quieras. En ambos casos deberás haber realizado previamiente un login."
-            ]
-          }
-        ],
-        "entity": "Operaciones con QR",
-        "family": {
-          "asset": "coronita:qr",
-          "name": "Operaciones con QR"
-        },
-        "link": {
-          "text": "Ir a operaciones con QR",
-          "url": "help-section-qr"
-        },
-        "native": true
+      "link": {
+        "text": "Pagar tarjeta BBVA",
+        "url": "help-section-dashboard"
       },
-      {
-        "id": 11,
-        "title": "¿Cómo cambio mi contraseña?",
-        "alternativeTitle": "Cambia la contraseña de tus aplicaciones BBVA",
-        "answer": [
-          {
-            "type": "p",
-            "content": [
-              "En el menú de la esquina superior derecha de la aplicación, selecciona 'Seguridad y privacidad' y entra a 'Accesos y firmas'. Allí podrás modificar tu contraseña. Recuerda que los cambios aplicarán para todos tus servicios móviles."
-            ]
-          }
-        ],
-        "entity": "Seguridad",
-        "family": {
-          "asset": "coronita:security",
-          "name": "Seguridad"
-        },
-        "link": {
-          "text": "Cambiar mi contraseña",
-          "url": "help-section-change-password"
-        },
-        "native": true
+      "native": true
+    },
+    {
+      "id": 6,
+      "title": "Quiero reportar un cargo no reconocido. ¿Cómo lo hago?",
+      "alternativeTitle": "Solicita la aclaración de un cargo no reconocido",
+      "answer": [
+        {
+          "type": "p",
+          "content": [
+            "Cuando revises tus movimientos, entra al cargo que no reconozcas y elige la opción 'Desconozco este movimiento'."
+          ]
+        }
+      ],
+      "entity": "Aclaraciones",
+      "family": {
+        "asset": "coronita:executive",
+        "name": "Aclaraciones"
       },
-      {
-        "id": 12,
-        "title": "¿Dónde puedo consultar los movimientos de mis cuentas y tarjetas?",
-        "alternativeTitle": "Revisa hasta tres meses de tus movimientos en cuentas y tarjetas",
-        "answer": [
-          {
-            "type": "p",
-            "content": [
-              "Elige la cuenta o tarjeta que quieres revisar. Debajo de la información general, encontrarás tus movimientos. Desliza para ver hasta tres meses de tus operaciones."
-            ]
-          }
-        ],
-        "entity": "Movimientos",
-        "family": {
-          "asset": "coronita:creditcard",
-          "name": "Movimientos"
-        },
-        "link": {
-          "text": "Ver movimientos",
-          "url": "help-section-dashboard"
-        },
-        "native": true
+      "link": {
+        "text": "Ver movimientos",
+        "url": "help-section-dashboard"
       },
-      {
-        "id": 13,
-        "title": "¿Cómo puedo saber el crédito disponible en mi tarjeta de crédito BBVA?",
-        "alternativeTitle": "Consulta el crédito disponible en tu tarjeta de crédito BBVA",
-        "answer": [
-          {
-            "type": "p",
-            "content": [
-              "Puedes ver el crédito disponible y saldo utilizado de tu tarjeta en la pantalla principal de la aplicación."
-            ]
-          },
-          {
-            "type": "p",
-            "content": [
-              "También puedes seleccionar la tarjeta que quieres revisar y en la pantalla te mostraremos tu crédito disponible y el saldo utilizado."
-            ]
-          }
-        ],
-        "entity": "Detalle de tarjeta",
-        "family": {
-          "asset": "coronita:account",
-          "name": "Detalle de tarjeta"
+      "native": true
+    },
+    {
+      "id": 7,
+      "title": "¿De qué manera consulto el saldo de mi cuentas y tarjetas de crédito?",
+      "alternativeTitle": "Consulta el saldo disponible en tu cuenta",
+      "answer": [
+        {
+          "type": "p",
+          "content": [
+            "Puedes ver el saldo de tus cuentas en la pantalla principal de la aplicación. O bien, al seleccionar alguna de tus cuentas aparecerá en la pantalla tu saldo disponible."
+          ]
+        }
+      ],
+      "entity": "Consulta de saldo",
+      "family": {
+        "asset": "coronita:copycard",
+        "name": "Consulta de saldo"
+      },
+      "link": {
+        "text": "Consultar saldo",
+        "url": "help-section-dashboard"
+      },
+      "native": true
+    },
+    {
+      "id": 8,
+      "title": "¿De qué manera puedo pagar servicios?",
+      "alternativeTitle": "Paga los servicios que más usas desde la aplicación BBVA",
+      "answer": [
+        {
+          "type": "p",
+          "content": [
+            "Toca la flecha en el centro de la pantalla principal para desplegar todo el menú. Entra a 'Pagar servicio' y selecciona uno de los que tienes guardados o registra uno nuevo. Completa los datos, verifica y confirma la operación."
+          ]
         },
-        "link": {
-          "text": "Consultar tarjeta",
-          "url": "help-section-dashboard"
+        {
+          "type": "p",
+          "content": [
+            "Si lo prefieres, puedes entrar a 'Pagar servicios' al seleccionar Más (...) en la pantalla informativa de tu cuenta."
+          ]
+        }
+      ],
+      "entity": "Pago de servicios",
+      "family": {
+        "asset": "coronita:payments",
+        "name": "Pago de servicios"
+      },
+      "link": {
+        "text": "Pagar servicios",
+        "url": "help-section-services-pay"
+      },
+      "native": true
+    },
+    {
+      "id": 9,
+      "title": "¿Cómo hago un retiro sin tarjeta?",
+      "alternativeTitle": "Haz retiros de efectivo en cajeros automáticos sin usar tus tarjetas",
+      "answer": [
+        {
+          "type": "p",
+          "content": [
+            "Entra a 'Retiro sin tarjeta' en la pantalla principal de la aplicación. Solo debes ingresar el monto y concepto. Al finalizar, podrás compartir la clave y el código de retiro."
+          ]
         },
-        "native": true
-      }
-    ]
-  }
+        {
+          "type": "p",
+          "content": [
+            "Para hacer el retiro en el cajero, selecciona la opción 'Retiro sin tarjeta' e ingresa la clave y el código de seguridad."
+          ]
+        }
+      ],
+      "entity": "Retiro sin tarjeta",
+      "family": {
+        "asset": "coronita:atm",
+        "name": "Retiro sin tarjeta"
+      },
+      "link": {
+        "text": "Ir a Retiro sin tarjeta",
+        "url": "help-section-cardless-withdrawal"
+      },
+      "native": true
+    },
+    {
+      "id": 10,
+      "title": "¿Cómo hago pagos y cobros con códigos QR o CoDi®?",
+      "alternativeTitle": "Comienza a realizar operaciones con QR",
+      "answer": [
+        {
+          "type": "p",
+          "content": [
+            "Para pagar, escanea el código con tu celular o elige una imagen de código QR dentro de tu galería. Para recibir cobros, elige el monto, ingresa el motivo de la solicitud y comparte la imagen con quien tú quieras. En ambos casos deberás haber realizado previamiente un login."
+          ]
+        }
+      ],
+      "entity": "Operaciones con QR",
+      "family": {
+        "asset": "coronita:qr",
+        "name": "Operaciones con QR"
+      },
+      "link": {
+        "text": "Ir a operaciones con QR",
+        "url": "help-section-qr"
+      },
+      "native": true
+    },
+    {
+      "id": 11,
+      "title": "¿Cómo cambio mi contraseña?",
+      "alternativeTitle": "Cambia la contraseña de tus aplicaciones BBVA",
+      "answer": [
+        {
+          "type": "p",
+          "content": [
+            "En el menú de la esquina superior derecha de la aplicación, selecciona 'Seguridad y privacidad' y entra a 'Accesos y firmas'. Allí podrás modificar tu contraseña. Recuerda que los cambios aplicarán para todos tus servicios móviles."
+          ]
+        }
+      ],
+      "entity": "Seguridad",
+      "family": {
+        "asset": "coronita:security",
+        "name": "Seguridad"
+      },
+      "link": {
+        "text": "Cambiar mi contraseña",
+        "url": "help-section-change-password"
+      },
+      "native": true
+    },
+    {
+      "id": 12,
+      "title": "¿Dónde puedo consultar los movimientos de mis cuentas y tarjetas?",
+      "alternativeTitle": "Revisa hasta tres meses de tus movimientos en cuentas y tarjetas",
+      "answer": [
+        {
+          "type": "p",
+          "content": [
+            "Elige la cuenta o tarjeta que quieres revisar. Debajo de la información general, encontrarás tus movimientos. Desliza para ver hasta tres meses de tus operaciones."
+          ]
+        }
+      ],
+      "entity": "Movimientos",
+      "family": {
+        "asset": "coronita:creditcard",
+        "name": "Movimientos"
+      },
+      "link": {
+        "text": "Ver movimientos",
+        "url": "help-section-dashboard"
+      },
+      "native": true
+    },
+    {
+      "id": 13,
+      "title": "¿Cómo puedo saber el crédito disponible en mi tarjeta de crédito BBVA?",
+      "alternativeTitle": "Consulta el crédito disponible en tu tarjeta de crédito BBVA",
+      "answer": [
+        {
+          "type": "p",
+          "content": [
+            "Puedes ver el crédito disponible y saldo utilizado de tu tarjeta en la pantalla principal de la aplicación."
+          ]
+        },
+        {
+          "type": "p",
+          "content": [
+            "También puedes seleccionar la tarjeta que quieres revisar y en la pantalla te mostraremos tu crédito disponible y el saldo utilizado."
+          ]
+        }
+      ],
+      "entity": "Detalle de tarjeta",
+      "family": {
+        "asset": "coronita:account",
+        "name": "Detalle de tarjeta"
+      },
+      "link": {
+        "text": "Consultar tarjeta",
+        "url": "help-section-dashboard"
+      },
+      "native": true
+    }
+  ]
+}
